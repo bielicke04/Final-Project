@@ -22,3 +22,38 @@ p {
                Header
 
 =======================================*/
+
+header {
+  background: #350700;
+  position: fixed;
+  left: 0;
+  right: 0;
+  padding: 10px 0 10px 10px;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-family: 'IM Fell English';
+  font-size: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0 4px;
+}
+
+/*======================================
+
+        Hero Image Section
+
+=======================================*/
+
+.hero-image-section {
+  background-image: url('../images/bat-landscape.jpg');
+  background-attachment: fixed;
+  padding: 200px 0;
+  text-align: center;
+}
