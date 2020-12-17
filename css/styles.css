@@ -124,11 +124,14 @@ header nav a {
         Museum Section
 
 =======================================*/
+.museum {
+  padding: 100px 0px;
+}
 
 .city {
   background: #f2f2f2;
   width: 250px;
-  display:inline-block;
+  display: inline-block;
   margin-top: 20px;
   padding: 35px 20px;
 }
@@ -157,4 +160,61 @@ header nav a {
   background-size: cover;
   background-position: bottom;
   padding: 300px 0;
+}
+
+/*======================================
+
+        Contact Section
+
+=======================================*/
+
+.contact-section {
+  padding: 30px 0px;
+  width: 630px;
+  margin: 0 auto;
+}
+
+.gorey-contact {
+  margin: 20px 0px;
+}
+
+.gorey-contact div {
+  margin-bottom: 10px;
+}
+
+.label_input_wrap {
+  vertical-align: top;
+  display: block;
+}
+
+.gorey-contact input,
+.gorey-contact textarea {
+  border: 1px solid black;
+  padding: 9px 11px;
+}
+
+.submit input {
+  background: #333;
+  color: white;
+  font-family:'EB Garamond', serif;
+  border-radius: 3px;
+  border: none;
+}
+
+/*======================================
+
+        Footer
+
+=======================================*/
+
+footer {
+  background: #333;
+  text-align: center;
+}
+
+footer img {
+  width: 40px;
+  padding: 15px 30px;
+  opacity: .2;
+  margin: 0px -10px;
 }
