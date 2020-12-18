@@ -15,9 +15,9 @@ h6 {
 
 p {
   font-family: 'EB Garamond', serif;
-  margin: 15px 0;
+  margin: 18px 0 23px;
   line-height: 25px;
-
+  text-align: justify;
 }
 
 /*======================================
@@ -40,7 +40,7 @@ header nav ul li {
 }
 
 header nav a {
-  color: #69943e;
+  color: #516939;
   text-decoration: none;
   font-family: 'IM Fell English';
   font-size: 15px;
@@ -51,11 +51,22 @@ header nav a {
 
 header nav a:hover {
     color: #ababab;
-    transition: .5s;
+    transition: .3s;
 }
 
 .spacers {
   color: #ffffff47;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: .5px;
+  opacity: .3
 }
 
 /*======================================
@@ -89,29 +100,40 @@ header nav a:hover {
 
 =======================================*/
 
-.gorey-who {
-  padding: 40px 0;
-}
-
 .gorey-who h1 {
-  font-size: 60px;
+  font-size: 52px;
   text-align:center;
-  letter-spacing: 1.5px;
+  letter-spacing: 1.3px;
 }
 
 .gorey-bio {
-  text-align: center;
+  margin: -28px -30px;
 }
 
 .bio-image {
   width: 230px;
-  display:inline-block;
-  margin-top: 30px;
-  padding: 35px 40px;
+  display: inline-block;
+  margin-top: 22px;
+  padding: 28px 40px;
 }
 
 .bio-image img {
   width: 300px;
+}
+
+.subtext {
+  position: absolute;
+  margin: 4px 63px 0px;
+  font-size: 15px;
+  letter-spacing: .5px;
+}
+
+span {
+  color: #d1d1d1;
+}
+
+.gorey-who {
+    padding: 31px 0 56px;
 }
 
 /*======================================
