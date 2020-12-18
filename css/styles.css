@@ -77,7 +77,7 @@ hr {
 =======================================*/
 
 .hero-image-section {
-  background-image: url('../images/gorey-main-image.jpg');
+  background-image: url('../images/gorey-main-image-color.jpg');
   background-attachment: fixed;
   background-size:cover;
   padding: 150px 0 150px 30px;
@@ -211,6 +211,7 @@ span {
 
 .city a:hover {
   background: #5e7942;
+  transition: .3s;
 }
 
 .city h3 {
@@ -247,9 +248,17 @@ span {
 =======================================*/
 
 .contact-section {
-  padding: 30px 0px;
+  background: #f2f2f2;
+  padding: 2px 24px 21px;
   width: 630px;
-  margin: 0 auto;
+  margin: 19px auto;
+}
+
+.container h2 {
+  text-align: center;
+  font-size: 42px;
+  letter-spacing: 1px;
+  margin: 28px auto 7px;
 }
 
 .gorey-contact {
@@ -263,12 +272,21 @@ span {
 .label_input_wrap {
   vertical-align: top;
   display: block;
+  font-family: 'IM Fell English';
+  margin: -9px 0px 2px;
+  padding: 12px 0px 2px;
 }
 
 .gorey-contact input,
 .gorey-contact textarea {
-  border: 1px solid black;
-  padding: 9px 11px;
+  border-radius: 3px;
+  width: 99%;
+  padding: 9px 0px 9px 8px;
+}
+
+textarea#comments {
+  font-family: sans-serif;
+  font-size: 13px;
 }
 
 .submit input {
@@ -279,6 +297,54 @@ span {
   border: none;
 }
 
+select#state {
+  width: 41%;
+  padding: 6px 5px;
+}
+
+.submit-bottom input {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  background: #333;
+  color: white;
+  text-decoration: none;
+  padding: 7px 112px;
+  border-radius: 3px;
+  letter-spacing: .2px;
+  margin: 14px 0px 10px;
+}
+
+div#special {
+  width: 44%;
+  margin: 0px auto;
+}
+
+.submit-bottom input:hover {
+  background: #5e7942;
+  transition: .3s;
+}
+
+.address p {
+  margin-top: 25px;
+  font-family: 'IM Fell English';
+  font-size: 16.5px;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: .5px;
+}
+
+.address a {
+  text-decoration: none;
+  color: #5e7942;
+  font-family: 'EB Garamond';
+}
+
+
+iframe {
+  margin-top: 5px;
+}
+
+
 /*======================================
 
         Footer
@@ -288,6 +354,8 @@ span {
 footer {
   background: #000;
   text-align: center;
+  margin: 24px auto -1px;
+  padding: 0px 0px 3px;
 }
 
 footer img {
@@ -295,4 +363,15 @@ footer img {
   padding: 15px 30px;
   opacity: .4;
   margin: 0px -10px;
+}
+
+.socialmedia p {
+  color: white;
+  text-align: center;
+  margin: -14px auto 13px;
+  font-family: sans-serif;
+  font-size: 10px;
+  opacity: .5;
+  text-transform: uppercase;
+  letter-spacing: .7px;
 }

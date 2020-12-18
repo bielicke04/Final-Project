@@ -116,8 +116,8 @@
       <section class="section-break-bottom"></section>
 
       <div class="container">
+        <h2>Contact</h2>
         <section class="contact-section" id="contact">
-          <h2>Contact</h2>
           <form class="gorey-contact" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
             <div class="first-name">
               <label for="firstname" class="label_input_wrap">First Name:</label>
@@ -144,7 +144,7 @@
               <textarea name="comments" maxlength="1000" cols="55" rows="15" placeholder="Insert Message Here" id="comments"></textarea>
             </div>
 
-            <div class="radiobutton">
+            <!--<div class="radiobutton">
               <label for="call-time" class="label_input_wrap">Best time to call:</label>
               <input type="radio" name="Call Time" value="mornings" id="mornings"/><label
               class="label_input_wrap" for="mornings">Morning</label>
@@ -152,7 +152,7 @@
               class="label_input_wrap" for"afternoons">Afternoon</label>
               <input type="radio" name="Call Time" value="evenings" id="evenings"/><label
               class="label_input_wrap" for="evenings">Evening</label>
-            </div>
+            </div>-->
 
             <div class="dropdown">
               <label for="state" class="label_input_wrap">Location:</label>
@@ -210,13 +210,17 @@
               </select>
             </div>
 
-            <div class="submit">
+            <div class="submit-bottom" id="special" >
               <input type="submit" value="Send">
             </div>
 
           </form>
 
-          <p>Address: 8 Strawberry Lane, Yarmouth Port, MA 02675 | Phone: <a href="tell:508.362.3909">508.362.3909</a> | <a href="mailto:email@example.com">eMail Us</a></p>
+          <hr>
+
+          <div class="address">
+            <p>Address: 8 Strawberry Lane, Yarmouth Port, MA 02675 | Phone: <a href="tell:508.362.3909">508.362.3909</a> | <a href="mailto:email@example.com">eMail Us</a></p>
+          </div>
 
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.7012239395253!2d-70.24483264861821!3d41.7053851840813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89fb377d6c9d9d69%3A0x4101a3f4987641b4!2sEdward%20Gorey%20House!5e0!3m2!1sen!2sus!4v1608189413994!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
@@ -231,6 +235,8 @@
         <a href="https://www.facebook.com/EdwardGoreyHouse" target="_blank"><img src="images/facebook.png" alt="facebook" title="Facebook" /></a>
 
         <a href="https://www.instagram.com/goreystore/" target="_blank"><img src="images/instagram.png" alt="instagram" title="Instagram" /></a>
+
+        <p>&copyjbielicke 2020</p>
       </div>
     </footer>
 
