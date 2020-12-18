@@ -27,7 +27,7 @@ p {
 =======================================*/
 
 header {
-  background: #350700;
+  background: #000000;
   position: fixed;
   left: 0;
   right: 0;
@@ -40,13 +40,22 @@ header nav ul li {
 }
 
 header nav a {
-  color: white;
+  color: #69943e;
   text-decoration: none;
   font-family: 'IM Fell English';
   font-size: 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin: 0 4px;
+}
+
+header nav a:hover {
+    color: #ababab;
+    transition: .5s;
+}
+
+.spacers {
+  color: #ffffff47;
 }
 
 /*======================================
@@ -56,10 +65,10 @@ header nav a {
 =======================================*/
 
 .hero-image-section {
-  background-image: url('../images/test2.jpg');
+  background-image: url('../images/gorey-main-image.jpg');
   background-attachment: fixed;
   background-size:cover;
-  padding: 150px 0;
+  padding: 150px 0 150px 30px;
   text-align: center;
 }
 
